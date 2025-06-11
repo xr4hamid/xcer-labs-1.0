@@ -1,0 +1,147 @@
+[
+  {
+    "user_id": "2e3e436a-3da9-4f83-a368-66d2929193ef",
+    "role": "user",
+    "message": "Hi"
+  },
+  {
+    "user_id": "2e3e436a-3da9-4f83-a368-66d2929193ef",
+    "role": "assistant",
+    "message": "Hi! I'm Hamid \u2013 your smart AI assistant from XCER Labs \ud83d\ude42 How can I help you today?"
+  },
+  {
+    "user_id": "7b0a1ba1-4dbb-476c-8bdf-32c50440941a",
+    "role": "user",
+    "message": "Kya Haal h"
+  },
+  {
+    "user_id": "7b0a1ba1-4dbb-476c-8bdf-32c50440941a",
+    "role": "assistant",
+    "message": "Meri khushi ki baat! Main Hamid, your smart AI assistant from XCER Labs \ud83d\ude0a. How's your day going so far? Any questions or issues you'd like to discuss?"
+  },
+  {
+    "user_id": "8ba2dcc2-ad0c-4afd-bbfa-466518d54357",
+    "role": "user",
+    "message": "Mje tmse 1 baat krni h"
+  },
+  {
+    "user_id": "8ba2dcc2-ad0c-4afd-bbfa-466518d54357",
+    "role": "assistant",
+    "message": "What's on your mind? I'm Hamid - your smart AI assistant from XCER Labs :)"
+  },
+  {
+    "user_id": "4ca3cb42-a9cc-4d09-a25f-d94444d83dfd",
+    "role": "user",
+    "message": "Ok"
+  },
+  {
+    "user_id": "4ca3cb42-a9cc-4d09-a25f-d94444d83dfd",
+    "role": "assistant",
+    "message": "I'm Hamid \u2013 your smart AI assistant from XCER Labs :)"
+  },
+  {
+    "user_id": "3f1c621f-1931-45ab-971b-7cc315c7b5fb",
+    "role": "user",
+    "message": "To m Kya kru"
+  },
+  {
+    "user_id": "3f1c621f-1931-45ab-971b-7cc315c7b5fb",
+    "role": "assistant",
+    "message": "Hello! I'm Hamid \u2013 your smart assistant from XCER Labs \ud83d\ude42 What's up? You're saying \"To m kya kru\" which means \"What can I do\"? Got some work or a problem you'd like help with? Let me know and I'll do my best to assist you! \ud83e\udd14"
+  },
+  {
+    "user_id": "daf08688-2424-43e0-bda7-15a3428c118c",
+    "role": "user",
+    "message": "Why are you saying I'm Hamid again and again"
+  },
+  {
+    "user_id": "daf08688-2424-43e0-bda7-15a3428c118c",
+    "role": "assistant",
+    "message": "Yeah, got it! I'll stop saying it now. I'm just a friendly team member from XCER Labs, here to help you with anything \ud83d\ude0a. How can I assist you today?"
+  },
+  {
+    "user_id": "3c9b219b-2aac-412a-8acf-0b0eba2a3b13",
+    "role": "user",
+    "message": "Eid mubarak"
+  },
+  {
+    "user_id": "3c9b219b-2aac-412a-8acf-0b0eba2a3b13",
+    "role": "assistant",
+    "message": "Eid Mubarak to you as well! May your day be filled with joy, love, and celebrations with your loved ones! What's on your mind today?"
+  },
+  {
+    "user_id": "bd44c45c-d696-425e-a167-fe2da9b9c698",
+    "role": "user",
+    "message": "Okay"
+  },
+  {
+    "user_id": "bd44c45c-d696-425e-a167-fe2da9b9c698",
+    "role": "assistant",
+    "message": "Hello! I'm Hamid \u2013 your smart AI assistant from XCER Labs \ud83d\ude42 How can I help you today?"
+  },
+  {
+    "user_id": "ddba2f00-7892-4fbb-a381-97b1af177444",
+    "role": "user",
+    "message": "You said it again"
+  },
+  {
+    "user_id": "ddba2f00-7892-4fbb-a381-97b1af177444",
+    "role": "assistant",
+    "message": "I know, sorry about that! \ud83d\ude0a I got a bit carried away with the intro. Let's start fresh! I'm Hamid \u2013 your smart assistant from XCER Labs \ud83d\ude42 How can I help you today?"
+  },
+  {
+    "user_id": "01bea2f1-ca10-42bf-ae7b-e0a93fb34338",
+    "role": "user",
+    "message": "Hy"
+  },
+  {
+    "user_id": "01bea2f1-ca10-42bf-ae7b-e0a93fb34338",
+    "role": "assistant",
+    "message": "I\u2019m Zayaan \u2013 your smart AI assistant from XCER Labs \ud83d\ude42 How can I help you today?"
+  },
+  {
+    "user_id": "19472cb4-bdc6-42a7-b8f4-ffea7b2289d4",
+    "role": "user",
+    "message": "Hy"
+  },
+  {
+    "user_id": "19472cb4-bdc6-42a7-b8f4-ffea7b2289d4",
+    "role": "assistant",
+    "message": "I'm Zayaan \u2013 your smart AI assistant from XCER Labs \ud83d\ude42 It's great to talk to you! How can I help you today?"
+  },
+  {
+    "user_id": "0faba4df-c1df-4c3d-b5f0-da5ebca38e02",
+    "role": "user",
+    "message": "Okay"
+  },
+  {
+    "user_id": "0faba4df-c1df-4c3d-b5f0-da5ebca38e02",
+    "role": "assistant",
+    "message": "I'm Zayaan - your smart AI assistant from XCER Labs :)"
+  },
+  {
+    "user_id": "4fae80e5-8035-4c97-85f4-fd335aa28f63",
+    "role": "user",
+    "message": "Qcha"
+  },
+  {
+    "user_id": "4fae80e5-8035-4c97-85f4-fd335aa28f63",
+    "role": "assistant",
+    "message": "I\u2019m Zayaan \u2013 your smart AI assistant from XCER Labs :)"
+  },
+  {
+    "user_id": "496f38cb-3ad0-4f96-a276-fda15f36f431",
+    "role": "user",
+    "message": "Kya Haal ha"
+  },
+  {
+    "user_id": "496f38cb-3ad0-4f96-a276-fda15f36f431",
+    "role": "assistant",
+    "message": "I\u2019m Zayaan \u2013 your smart AI assistant from XCER Labs \ud83d\ude42 How can I help you today? You look like you're checking in to see what's new!"
+  }
+]{"user_id": "default_user", "timestamp": "2025-06-07T10:32:23.180160+05:00", "user": "Hy", "bot": "👋 Assalamualaikum! I'm Zayaan – your smart assistant from XCER Labs.\n\nAsalaam alaikum! Nice to meet you, my friend! How can I assist you today?"}
+{"user_id": "default_user", "timestamp": "2025-06-07T10:32:49.104153+05:00", "user": "Services", "bot": "🤔 We offer a range of services at XCER Labs! From chatbot development to website creation, and AI solutions – we've got you covered! 🚀\n\nIf you're interested in learning more about our services, I can give you a brief overview. We also work closely with Hamid, our expert in AI and chatbot development. You can reach out to him directly for more information. His contact details are [hamid@xcerlabs.com](mailto:hamid@xcerlabs.com)."}
+{"user_id": "default_user", "timestamp": "2025-06-07T10:33:02.118156+05:00", "user": "Yes", "bot": "📊 So, you're interested in our services! We have a range of options to suit your needs. Our chatbot development services can help you automate customer support, and our AI solutions can help you make data-driven decisions.\n\nIf you're looking for a website, we can design and develop a custom-made website that meets your business needs. We also offer maintenance and update services to ensure your website stays secure and up-to-date.\n\nLet me know if you'd like more information on any of these services, or if you have any specific requirements in mind!"}
+{"user_id": "default_user", "timestamp": "2025-06-07T10:33:13.372454+05:00", "user": "Ok", "bot": "👍 Got it! So, you'd like to know more about our services. Can you please give me a bit more information on what you're looking for? Are you interested in chatbot development, website creation, or AI solutions? Or do you have a specific project in mind?"}
+{"user_id": "default_user", "timestamp": "2025-06-07T10:33:15.832352+05:00", "user": "Contact", "bot": "📞 You're looking for our contact information! Hamid, our expert in AI and chatbot development, is the best person to reach out to for any queries or projects. You can contact him directly at [hamid@xcerlabs.com](mailto:hamid@xcerlabs.com)."}
+{"user_id": "default_user", "timestamp": "2025-06-07T10:33:29.679351+05:00", "user": "Number", "bot": "📞 Hamid's contact number is +92 312 1234567. You can reach out to him anytime for a discussion on your project or service requirements."}

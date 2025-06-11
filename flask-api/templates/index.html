@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>XCER Labs Web Chat</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>🤖 XCER Labs Web Chat</h1>
+        </header>
+        <div class="chat-box">
+            {% if user_message %}
+                <div class="message user">
+                    <p>{{ user_message }}</p>
+                </div>
+            {% endif %}
+            {% if bot_reply %}
+                <div class="message bot">
+                    <p>{{ bot_reply }}</p>
+                </div>
+            {% endif %}
+        </div>
+        <form method="POST" class="input-form">
+            <input type="text" name="message" placeholder="Type a message..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

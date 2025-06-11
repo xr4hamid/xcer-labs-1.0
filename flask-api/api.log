@@ -1,0 +1,11 @@
+2025-06-07 11:58:25,729 - __main__ - INFO - Starting server on port 5000
+2025-06-07 11:58:32,007 - __main__ - INFO - Starting server on port 5000
+2025-06-07 11:58:32,031 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-06-07 11:58:32,031 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 11:58:50,462 - __main__ - WARNING - Unauthorized access attempt from 127.0.0.1
+2025-06-07 11:58:50,463 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 11:58:50] "[31m[1mPOST /chat HTTP/1.1[0m" 401 -
+2025-06-07 11:58:53,572 - __main__ - WARNING - Unauthorized access attempt from 127.0.0.1
+2025-06-07 11:58:53,574 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 11:58:53] "[31m[1mPOST /chat HTTP/1.1[0m" 401 -
