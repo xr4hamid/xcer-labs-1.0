@@ -14,6 +14,10 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 CORS(app)
+@app.route('/')
+def index():
+    return 'XCER Flask Backend is Live!'
+
 
 # Memory for chat history per user
 user_histories = {}
