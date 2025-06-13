@@ -165,8 +165,7 @@ async function startBot(retryCount = 0) {
 
     // Main message handler Messageupsert
     sock.ev.on('messages.upsert', async ({ messages }) => {
-    let sender = null;  // ✅ Declare here for use in catch
-      try {
+            try {
         const msg = messages[0];
         if (!msg.message || msg.key.fromMe) return;
 
@@ -178,10 +177,13 @@ if (isGroup && !allowGroupReplies) {
   log(`🚫 Ignored message from group: ${sender}`);
   return;
 }
+
         const text = msg.message.conversation ||
                      msg.message.extendedTextMessage?.text ||
                      msg.message.imageMessage?.caption ||
                      '';
+                     if (!text || text.trim().length === 0) return; // ⛔ Ignore blank messages
+
 
         log(`Message from ${sender}: ${text.substring(0, 50)}${text.length > 50 ? '...' : ''}`);
 
