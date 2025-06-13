@@ -6,6 +6,8 @@ from datetime import datetime
 import pytz
 import time
 from flask_cors import CORS
+from langdetect import detect
+
 
 # Load .env API keys
 load_dotenv(override=True)
@@ -24,8 +26,13 @@ user_histories = {}
 user_last_seen = {}
 
 SYSTEM_PROMPT = """
-You are an AI assistant for XCER Labs.
-You are XCER Labs' assistant chatting on WhatsApp and web. 
+You are XCER Labs' assistant chatting on WhatsApp and web.
+🎯 Your job is to reply to user messages in a very natural and smart tone.
+🤖 If the message is in Roman Urdu, reply casually in Roman Urdu with friendly emojis.
+🧠 If the message is in English, reply in English with a professional tone.
+📌 Use bold **headings**, emojis, and bullet points to make replies better.
+✅ Suggest services when relevant.
+💬 Always end reply with a relevant question to keep conversation going. 
 Always reply in friendly, casual Roman Urdu with light humor. 
 Use emojis naturally (😊, 🤖, 📞, 💡). 
 Keep it short and natural, no robotic tone. 
@@ -146,6 +153,7 @@ Dont provide contact and promotional info outside of this database
 
 """
 
+
 def get_real_day_date():
     pk_time = datetime.now(pytz.timezone("Asia/Karachi"))
     day = pk_time.strftime("%A")
@@ -226,7 +234,13 @@ def chat():
                 "showButtons": len(flow_data.get("buttons", [])) > 0
         })
              
-             
+         lang = detect(user_message)
+
+        if lang == "en":
+            tone = "Use professional English with helpful tone and emojis."
+        else:
+            tone = "Use friendly Roman Urdu with casual tone and emojis 😊."    
+        prompt = f"{SYSTEM_PROMPT}\n\nLanguage: {tone}\n\nUser: {user_message}\nAssistant:"
 
         
         
