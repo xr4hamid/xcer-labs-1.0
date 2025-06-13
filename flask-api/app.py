@@ -234,12 +234,15 @@ def chat():
                 "showButtons": len(flow_data.get("buttons", [])) > 0
         })
              
-         lang = detect(user_message)
+        try:
+            lang = detect(user_message)
+        except:
+             lang = "en"
 
         if lang == "en":
-            tone = "Use professional English with helpful tone and emojis."
+            tone = "English"
         else:
-            tone = "Use friendly Roman Urdu with casual tone and emojis 😊."    
+            tone = "Roman Urdu"    
         prompt = f"{SYSTEM_PROMPT}\n\nLanguage: {tone}\n\nUser: {user_message}\nAssistant:"
 
         
