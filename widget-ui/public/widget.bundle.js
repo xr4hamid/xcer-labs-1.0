@@ -3,7 +3,8 @@
   console.log("✅ XCER Widget Loaded!");
 
   const iframe = document.createElement("iframe");
-  iframe.src = "http://localhost:54284"; // ⚠️ Update this if port changes
+  
+  iframe.src = "https://xcer-flask-backend.onrender.com/chat"; // ⚠️ Update this if port changes
 
   // ✅ Proper Chat Bubble Styling
   iframe.style.position = "fixed";

@@ -12,6 +12,7 @@ const fs = require('fs');
 const path = require('path');
 const P = require('pino');
 const sendContactImage = require('./contact');
+
 const allowGroupReplies = process.env.REPLY_IN_GROUPS === 'true';
 
 
@@ -21,7 +22,7 @@ const INTEREST_KEYWORDS = [
 
 // Configuration
 const CONFIG = {
-  AI_ENDPOINT: process.env.AI_ENDPOINT || 'http://127.0.0.1:5000/chat',
+  AI_ENDPOINT: process.env.AI_ENDPOINT || 'https://xcer-flask-backend.onrender.com/chat',
   SESSION_PATH: './auth_info',
   MAX_RETRIES: 5,
   RETRY_DELAY: 5000,
